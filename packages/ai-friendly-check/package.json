@@ -1,0 +1,39 @@
+{
+  "name": "ai-friendly-check",
+  "version": "1.0.1",
+  "description": "检查网页对 AI 搜索引擎的友好度：8 项指标、40 分制评分，一行命令出报告。",
+  "main": "index.js",
+  "bin": {
+    "ai-friendly-check": "bin/cli.js"
+  },
+  "files": [
+    "index.js",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "geo",
+    "generative-engine-optimization",
+    "ai-search",
+    "seo",
+    "audit",
+    "llm",
+    "ai-friendly",
+    "structured-data"
+  ],
+  "homepage": "https://www.geofde.cn/tools",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dell0721/ai-landing-playbook.git",
+    "directory": "packages/ai-friendly-check"
+  },
+  "author": "落地派 <hello@geofde.cn> (https://www.geofde.cn)",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/audit.test.js"
+  }
+}

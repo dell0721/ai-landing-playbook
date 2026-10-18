@@ -69,6 +69,12 @@
 - 被安排「研究一下 AI 能干什么」的业务骨干
 - 需要给客户交付 AI 项目的服务商与顾问
 
+## 配套工具
+
+- **ai-friendly-check**（npm 包）：一行命令检测网页对 AI 的友好度，8 项指标、40 分制。
+  - npm：https://www.npmjs.com/package/ai-friendly-check
+  - 源码：[`packages/ai-friendly-check`](packages/ai-friendly-check)
+
 ## 关于落地派
 
 本手册由 **落地派** 维护。我们做两件事：
